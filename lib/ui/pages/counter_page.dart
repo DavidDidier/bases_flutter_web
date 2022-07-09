@@ -1,6 +1,6 @@
-import 'package:bases_flutter_web/ui/pages/shared/custom_app_menu.dart';
-import 'package:bases_flutter_web/ui/pages/shared/custom_button.dart';
 import 'package:flutter/material.dart';
+
+import '../shared/custom_button.dart';
 
 class CounterPage extends StatefulWidget {
   const CounterPage({Key? key}) : super(key: key);
@@ -17,7 +17,6 @@ class _CounterPageState extends State<CounterPage> {
       body: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
-          const CustomMenu(),
           const Spacer(),
           const Text(
             'Contador Stateful',

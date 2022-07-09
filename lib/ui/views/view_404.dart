@@ -2,13 +2,12 @@ import 'package:flutter/material.dart';
 
 import '../shared/custom_button.dart';
 
-class Page404 extends StatelessWidget {
-  const Page404({Key? key}) : super(key: key);
+class View404 extends StatelessWidget {
+  const View404({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-        body: Center(
+    return Center(
       child: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
@@ -28,6 +27,6 @@ class Page404 extends StatelessWidget {
               onPressed: () => Navigator.pushNamed(context, '/stateful'))
         ],
       ),
-    ));
+    );
   }
 }
